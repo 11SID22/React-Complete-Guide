@@ -1,9 +1,10 @@
 function ExpenseItem() {
-    return <h2>Expense Items: <br></br> 
-    Volleyball: Rs 600 <br></br>
-    Football: Rs 400 <br></br>
-    Bat & Ball: Rs 1000
-    </h2>
+    return <div>
+        <div>Expense Items:</div>
+        <div>Volleyball: Rs 600<div>
+        </div>Football: Rs 400</div>
+        <div>Bat & Ball: Rs 1000</div>
+    </div>
 }
 
 export default ExpenseItem;
