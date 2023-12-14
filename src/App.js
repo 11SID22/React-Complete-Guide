@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from './components/NewExpense/NewExpense';
@@ -15,14 +15,14 @@ const DUMMY_EXPENSES = [
     id: 'e2',
     title: 'New Bike',
     amount: 400000,
-    date: new Date(2024, 9, 11),
+    date: new Date(2022, 9, 11),
     location: 'BMW motors (Mumbai)'
   },
   {
     id: 'e3',
     title: 'Trip',
     amount: 2000,
-    date: new Date(2024, 2, 25),
+    date: new Date(2022, 2, 25),
     location: 'Ratnagiri'
   },
   {
